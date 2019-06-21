@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BoutrosART';
+    src: url('BoutrosART-Medium.woff2') format('woff2'),
+        url('BoutrosART-Medium.woff') format('woff'),
+        url('BoutrosART-Medium.ttf') format('truetype'),
+        url('BoutrosART-Medium.svg#BoutrosART-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

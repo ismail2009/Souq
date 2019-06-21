@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>store</title>
+    <!-- bootstrap-css -->
+    <!-- <link rel="stylesheet" href="css/lib/bootstrap.css">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/lib/bootstrap-theme.css"> -->
+    <link rel="stylesheet" href="./css/fonts/stylesheet.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="#header">
+  <div class="upper-nav">
+    <div class="row">
+      <ul class="upper-nav__list list-style-disable">
+        <li class="upper-nav__item">
+          <div class="icon-box">
+              <i class="fa fa-envelope icon"></i>
+          </div>
+          <p >ps.opensooq.com</p>
+        </li>
+        <li class="upper-nav__item">
+          <div class="icon-box">
+            <i class="material-icons icon">hearing</i>
+          </div>
+          <p>
+            Help Center
+            <a href="#" class="link-blue">You have query or a problem </a>
+          </p>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <nav class="navigation">
+      <div class="row flex-between ">
+            <a class="navigation__logo-box" href="#">
+              <img src="./img/250px-Souq_Logo_Primary_EN.svg.png" alt="website logo" class="navigation__logo" class="nav navbar-left">
+            </a>
+            <input type="checkbox" name="navi-toggle" id="navi-toggle" class="navigation__checkbox">
+
+            <label for="navi-toggle" class="navigation__button"><span class="navigation__burgar">&nbsp;</span></label>
+      
+            <div class="navigation__background">&nbsp;</div>
+                  
+            <nav class="navigation__nav">
+                <ul class="navigation__list list-style-disable">
+                  <li class="navigation__item"><a href="#" class="navigation__link link-black" ><i class="material-icons navigation__icon">store</i> Shops</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link link-black"><i class="material-icons navigation__icon">lock</i> Store</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link link-black"><i class="material-icons navigation__icon">person_add</i> Register</a></li>
+                  <li class="navigation__item"><a href=""  class="btn btn--blue navigation__btn"><i class="fa fa-plus navigation__icon"></i> Post Ad Now</a></li>
+                </ul>
+            </nav>
+    </div>
+  </nav>
+  <div class="banner">
+    <div class="row">
+      <img src="./img/homeBanner-en.jpg" alt="" class="banner-bg">
+    </div>
+  </div>
+  <div class="search">
+    <div class="row">
+     <form action="" class="search__form">
+       <div class="search__selector">
+          <input type="search" list="city-filter"  placeholder="All Cities" name="city" class="search__input"  autocomplete="off"  />
+          <datalist  id="city-filter"  >
+            <option>PHP</option>
+            <option>CSS</option>
+            <option>HTML</option>
+            <option>CSS 3</option>
+            <option>Bootstrap</option>
+            <option>JavaScript</option>
+            </datalist>
+        </div>
+       <div class="search__selector">
+        <input type="search" list="category-filter"  placeholder="All Categories" name="category" class="search__input"  autocomplete="off"  />
+          <datalist  id="category-filter"  >
+              <option>PHP</option>
+              <option>CSS</option>
+              <option>HTML</option>
+              <option>CSS 3</option>
+              <option>Bootstrap</option>
+              <option>JavaScript</option>
+          </datalist>
+        </div>
+        <div class="search__input-box">
+          <input name="advertiseTitle"  class="search__input search__input--text" placeholder="Search in Palestine" required/>
+          <div class="search__icon">
+            <img src="./img/search-icon.svg" alt="" >
+          </div>
+        </div>
+     </form>
+    </div>
+  </div>
+</header>
+<section id="section-advertise">
+  <div class="u-center-text .u-margin-bottom-sm">
+    <h2 class="heading-secondary"><span class="heading__span--blue">welcome to </span>openSooq palestine</h2>
+    <h3 class="heading-tertiary">sell, buy or advertise anything for <span class="heading-tertiary__span">free</span></h3>
+  </div>
+  <div class="category">
+    <div class="row">
+      <ul class="category__list list-style-disable">
+        <li class="category__item">
+          <button id="trigger-1" class="category__btn">
+              <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+              <span class="category__title capetalize-text ">  cars </span>
+              <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="./img/pexels-photo-1149831.jpeg" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">cars for sale</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">cars for rent</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">motoercycles for sale</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vip car plates</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">parts - accessories </a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"> wheels - rims</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+         <li class="category__item">
+          <button id="trigger-2" class="category__btn">
+              <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+              <span class="category__title capetalize-text ">mobile - tablet</span>
+              <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+           </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-3" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+            <li class="category__item">
+          <button id="trigger-4" class="category__btn">
+              <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+              <span class="category__title capetalize-text ">  cars </span>
+              <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="./img/pexels-photo-1149831.jpeg" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">cars for sale</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">cars for rent</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">motoercycles for sale</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vip car plates</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">parts - accessories </a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"> wheels - rims</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+         <li class="category__item">
+          <button id="trigger-5" class="category__btn">
+              <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+              <span class="category__title capetalize-text ">mobile - tablet</span>
+              <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+           </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link"></a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-6" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-7" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-8" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-9" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-10" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-11" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-12" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-13" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-14" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-15" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-16" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="category__item">
+          <button id="trigger-17" class="category__btn">
+            <img src="./img/icons8-carpool-filled-100.png" alt="" class="category-icon">
+            <span class="category__title capetalize-text ">video games & consoles</span>
+             <i class="category__slide-icon fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <div  class="category__slide">
+            <div class="slider__content">
+              <img src="" alt="" class="slider__image">
+              <div class="slide__category-box">
+                <h3 class="heading-tertiary">car</h3>
+                <hr />
+                <div class="slide__sub-category-box">
+                  <ul class="sub-category-list list-style-disable">
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">vhdsfs</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsdfsdfsd</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">sdfsdfsdf</a></li>
+                    <li class="sub-category__item"><a href="" class="btn sub-category__link">fsfsdfsdfsd</a></li>
+                  </ul>
+                  <a href="" class="btn btn--black">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div> 
+  </div>
+</section>
+<section id="popular-cities">
+  <h2 class="heading-secondary  u-center-text u-margin-bottom-sm">most popular cities</h2>
+  <div class="row">
+    <ul class="cities__list list-style-disable">
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq jerusalem</a></li>
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq ramallah</a></li>
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq gaza</a></li>
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq nablus</a></li>
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq hebron</a></li>
+      <li class="cities__item"><a href="" class="btn btn--black ">OpenSooq jenin</a></li>
+    </ul>
+  </div>
+</section>
+  <section id="ad-section">
+    <div class="row">
+      <p class="ad__paragragh  u-margin-bottom-md">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, est. Dignissimos obcaecati nam ipsum! Eligendi nulla repellat nam officiis? Porro doloribus delectus minus quasi ex officia minima, illo libero cum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ea ipsam deleniti eos, sint alias nisi qui, reiciendis adipisci enim vero, assumenda cum vel dolorem eum amet tenetur inventore perferendis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at, doloribus voluptatem ipsum eveniet vero nam quisquam explicabo esse deleniti magnam temporibus praesentium, incidunt repudiandae expedita quia. Consequuntur, cum adipisci.
+      </p>
+      <a href="" class="btn btn--blue "><span class="btn__span--plus">&#43;</span> post ad now</a>
+    </div>
+  </section>
+  <footer id="footer">
+   <div class="row">
+     <ul class="footer__list u-margin-bottom-md list-style-disable">
+       <li class="footer__item footer__item--about">
+         <h3 class="heading-tertiary u-margin-bottom-sm ">About OpenSooq</h3>
+         <hr class="u-margin-bottom-sm">
+        <p class="footer__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur aspernatur, 
+          quibusdam, alias error provident veniam tempore corrupti quisquam culpa quasi, veritatis natus est doloribus nostrum nobis quaerat sequi inventore?
+        </p>
+       </li>
+       <li class="footer__item footer__item--category">
+         <h3 class="heading-tertiary u-margin-bottom-sm ">OpenSooq</h3>
+         <hr class="u-margin-bottom-sm">
+        <ul class="footer__categories list-style-disable">
+          <li class="footer__category"><a href="" class="link-black">home</a></li>
+          <li class="footer__category"><a href="" class="link-black">cars</a></li>
+          <li class="footer__category"><a href="" class="link-black">tablet - mobile </a></li>
+          <li class="footer__category"><a href="" class="link-black">video games & consoles</a></li>
+          <li class="footer__category"><a href="" class="link-black">electronic - appliance </a></li>
+          <li class="footer__category"><a href="" class="link-black">real estate for sale </a></li>
+          <li class="footer__category"><a href="" class="link-black">real estate for rent </a></li>
+          <li class="footer__category"><a href="" class="link-black">furniture - decor </a></li>
+          <li class="footer__category"><a href="" class="link-black"> wemones fashion </a></li>
+          <li class="footer__category"><a href="" class="link-black">mens fashion  </a></li>
+          <li class="footer__category"><a href="" class="link-black"> baby - kids</a></li>
+          <li class="footer__category"><a href="" class="link-black"> food - supplements</a></li>
+          <li class="footer__category"><a href="" class="link-black"> service</a></li>
+          <li class="footer__category"><a href="" class="link-black"> jobs </a></li>
+          <li class="footer__category"><a href="" class="link-black"> job seekers</a></li>
+          <li class="footer__category"><a href="" class="link-black"> pets</a></li>
+          <li class="footer__category"><a href="" class="link-black"> books - sports - others </a></li>
+          <li class="footer__category"><a href="" class="link-black"> business - industrial </a></li>
+          <li class="footer__category"><a href="" class="link-black"> funny ads  </a></li>
+        </ul>
+       </li>
+       <li class="footer__item footer__item--contact">
+         <h3 class="heading-tertiary u-margin-bottom-sm ">Contacts Us</h3>
+         <hr class="u-margin-bottom-sm">
+         <ul class="contact__list list-style-disable">
+        <li class="contact__item ">
+          <i class="fa fa-envelope icon"></i>
+          <p >ps.opensooq.com</p>
+        </li>
+        <li class="contact__item ">
+        <i class="material-icons icon">hearing</i>
+        <p>
+          Help Center
+          <a href="#" class="link-blue">You have query or a problem </a>
+        </p>
+      </li>
+      <li class="contact__item ">
+         <ul class="social-icons list-style-disable">
+            <li class="social-icons__item social-icons__item--black "><a  href="#" class="btn"><i class="fa fa-facebook icon"></i></a></li>
+            <li class="social-icons__item social-icons__item--black "><a  href="#"  class="btn"><i class="fa fa-twitter icon"></i></a></li>
+            <li class="social-icons__item social-icons__item--black "><a  href="#"  class="btn"><i class="material-icons icon">public</i></a></li>
+            <li class="social-icons__item social-icons__item--black "><a  href="#"  class="btn"><i class="fa fa-instagram icon"></i></a></li>   
+          </ul>
+      </li>
+    </ul>
+       </li>
+     </ul>  
+     <hr class="u-margin-bottom-sm"/>
+         <h4 class="heading-fourth u-margin-bottom-md ">Download the OpenSooq app for FREE</h4>
+          <ul class="downloads-list list-style-disable u-margin-bottom-md">
+            <li class="downloads__item">  <a href=""> <img src="./img/app-store-badge.png" alt="app store"></a></li>
+            <li class="downloads__item"> <a href=""> <img src="./img/Icon Google play.png" alt="google play"></a></li>
+            <li class="downloads__item"> <a href=""> <img src="./img/windows-phone-badge.png" alt="windows phone badge"></a></li>
+            <li class=" downloads__item or-circle">OR</li>
+            <li class="downloads__item">
+              <form action="" class="contact__form">
+                <input type="email" name="email" id="email" class="contact_input">
+                <button class="contact__btn">Submit</button>
+              </form>
+            </li>
+          </ul>
+    </div>
+     <hr class="u-margin-bottom-sm"/>
+     <div class="row">
+       <p class="copy-right">
+         Copyright &copy;	2019 OpenSooq.com. All rights reserved
+       </p>
+     </div>
+  </footer>
+      <!-- bootstrap-minified-javascript -->
+      <script src="./js/jquery/jquery-3.4.1.slim.min.js"></script>
+      <script src="./js/dom.js"></script>
+</body>
+</html>
+<!-- <i class="fas fa-search"></i> -->
+
