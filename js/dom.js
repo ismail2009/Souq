@@ -7,7 +7,7 @@ const handleClick = function() {
     RemoveActiveAll();
     const offsetTop = elm.offsetTop;
     const offsetHeight = elm.offsetHeight;
-    const offset = offsetTop + offsetHeight + 5;
+    const offset = offsetTop + offsetHeight + 15;
     arrow.classList.replace("fa-angle-up", "fa-angle-down");
     slider.classList.add("slide--active");
     slider.querySelector(".slider__content").style.top = offset + "px";
